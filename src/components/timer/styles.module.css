@@ -1,0 +1,26 @@
+.timer_container {
+  border: 1px solid rgb(167, 235, 235);
+  width: 320px;
+  height: 200px;
+  margin: 100px 430px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -3px -3px 5px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #00f, #0f0);
+}
+.timer_container > h1,
+p {
+  color: aliceblue;
+  font-weight: 700;
+}
+.timer_container > p {
+  font-size: 25px;
+}
+.timer_container > button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  background: linear-gradient(to right, #0f0, #00f);
+  color: aliceblue;
+  font-weight: 700;
+  cursor: pointer;
+}
